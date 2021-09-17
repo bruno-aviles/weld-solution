@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weld Solution</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- TITLE -->
+	<div class="title">
+		<h1>Weld Solution</h1>
+		<p>How much <span>energy</span> is your weld producing?</p>
+	</div>
+	<!-- USER INPUT CONTAINER -->
+	<div class="heatInputContainer">
+		<div class="calculateContainer col">
+			<label for="volts">Arc Voltage(V)</label>
+			<input type="number" id="volts" value=0>
+			<label for="amps">Welding Current(A)</label>
+			<input type="number" id="amps" value="0">
+			<label for="travelSpeed">Welding Travel Speed(in/min)</label>
+			<input type="number" id="travelSpeed" value=0>
+			<!-- HEAT INPUT RESULT -->
+			<div id="resultContainer">
+				<!-- should display the calculated heat input -->
+				<h3 id="heatInputDisplay"></h3>
+			</div>
+			<!-- TOGGLE RESULT HEAT INPUT UNIT -->
+			<!-- <button id="toggle">Joules/KiloJoules</button> -->
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
