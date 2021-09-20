@@ -40,7 +40,7 @@ body {
 .heatInputContainer {
 	display: flex;
 	justify-content: center;
-	height: 50vh;
+	height: 45%;
 	width: 70%;
 	margin: auto;
 	/* background-color: rgb(224, 52, 52, 0.5); */
